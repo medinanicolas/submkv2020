@@ -47,6 +47,8 @@ while True:
             elif sub_len != 'spa' or sub_len != 'eng' or sub_len != 'fre' or sub_len != 'ger' or sub_len != 'ita':
                 continue
         break
+    elif menu_opc == 0:
+        exit(0)
     else:
         print(Fore.RED+"Error:",Fore.RESET+"Seleccione una opción correcta.")
         continue
