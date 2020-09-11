@@ -9,10 +9,13 @@ _Está pensada para crear archivos multimedia que contengan subtitulos reconocib
 * Convertir archivos **mp4** a **mkv** con subtitulos
 * Establece los subtitulos de forma predeterminada
 
-    ### Proximas caracteristicas
+    ### Proximas caracteristicas y mejoras
 
     * Editar subtitulos en archivos **mkv** (_agregar, quitar, cambiar orden_)
     * Modificar pistas de audio en archivos **mkv** (_quitar, cambiar orden_)
+    * Reintentar subtitulado en caso de error
+    * Más color
+    
     * Interfaz gráfica en [Qt for python](https://www.qt.io/qt-for-python)
     
 ## Dependencias
