@@ -43,7 +43,8 @@ else:
 
 if not path.isfile(movie) & path.isfile(sub):
     print(Fore.RED + "Error:", "No se ha podido encontrar los archivos de entrada", path.basename(movie), path.basename(sub))
-
+    sys.exit()
+    
 if movie.lower().endswith(".mp4"):
     filename = path.basename(movie)[:-4]
 
